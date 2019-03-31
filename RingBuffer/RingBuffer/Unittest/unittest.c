@@ -120,7 +120,7 @@ int main ( void )
    pSuite = CU_add_suite( "RingCUnit_BuffOvrflw", init_suite, clean_suite );
    pSuite = CU_add_suite( "RingCUnit_BufDelScs", init_suite, clean_suite );
    pSuite = CU_add_suite( "RingCUnit_BufEmpty", init_suite, clean_suite );
- pSuite = CU_add_suite( "RingCunit_BufFree", init_suite, clean_suite );
+   pSuite = CU_add_suite( "RingCunit_BufFree", init_suite, clean_suite );
 
    if ( NULL == pSuite ) 
    {
